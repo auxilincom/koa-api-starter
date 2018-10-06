@@ -62,5 +62,8 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/auxilincom/koa-api-starter.git"
+  },
+  "engines": {
+    "node": ">= 10"
   }
 }
