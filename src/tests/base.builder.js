@@ -1,4 +1,4 @@
-const { idGenerator } = require('@paralect/node-mongo');
+const { idGenerator } = require('@auxilin/node-mongo');
 
 class BaseBuilder {
   constructor(service) {

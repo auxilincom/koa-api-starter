@@ -2,6 +2,7 @@ pipeline:
   run-api-starter-tests:
     image: node:8.12.0
     commands:
+      - chmod +x ./bin/run.sh
       - ./bin/run.sh
     when:
       status: [ failure, success ]
