@@ -3,7 +3,7 @@
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Build Status](http://ci.auxilin.com/api/badges/auxilinxom/koa-api-starter/status.svg)](http://ci.auxilin.com/auxilincom/koa-api-starter)
+[![Build Status](http://ci.auxilin.com/api/badges/auxilincom/koa-api-starter/status.svg)](http://ci.auxilin.com/auxilincom/koa-api-starter)
 [![David Dependancy Status](https://david-dm.org/auxilincom/koa-api-starter.svg)](https://david-dm.org/auxilincom/koa-api-starter)
 
 [![Watch on GitHub](https://img.shields.io/github/watchers/auxilincom/koa-api-starter.svg?style=social&label=Watch)](https://github.com/auxilincom/koa-api-starter/watchers)
