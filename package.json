@@ -1,6 +1,6 @@
 {
   "name": "koa-api-starter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Koa api",
   "private": false,
   "main": "src/app.js",
@@ -27,7 +27,7 @@
   "dependencies": {
     "@paralect/common-logger": "0.1.10",
     "@paralect/email-service": "0.1.0",
-    "@paralect/node-mongo": "1.0.0",
+    "@auxilin/node-mongo": "0.1.0",
     "app-module-path": "2.2.0",
     "bcrypt": "3.0.1",
     "joi": "13.7.0",
@@ -47,7 +47,7 @@
     "@auxilin/eslint-config": "0.1.1",
     "all-contributors-cli": "5.4.0",
     "babel-eslint": "10.0.1",
-    "chai": "4.1.2",
+    "chai": "4.2.0",
     "eslint": "5.3.0",
     "eslint-plugin-import": "2.14.0",
     "eslint-plugin-jsx-a11y": "6.1.2",
