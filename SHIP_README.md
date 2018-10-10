@@ -6,7 +6,7 @@ The goal of this project is to solve all routine tasks and keep your focus on th
 Out of the box support following features:
 
 1. Config management.
-2. Configured console logger based on  [common-logger](https://www.npmjs.com/package/@paralect/common-logger)
+2. Configured console logger based on  [common-logger](https://www.npmjs.com/package/@auxilin/common-logger)
 3. Automatic application restart when code changes with [Nodemon](https://github.com/remy/nodemon)
 4. MongoDB configuration
 5. Docker configuration for development and production environments.
