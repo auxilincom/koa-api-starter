@@ -1,5 +1,5 @@
 const { join } = require('path');
-const MailService = require('@paralect/email-service');
+const MailService = require('@auxilin/email-service');
 
 const {
   mailgun,
