@@ -1,10 +1,5 @@
 const crypto = require('crypto');
 const bcrypt = require('bcrypt');
-const util = require('util');
-
-const randomBytes = util.promisify(crypto.randomBytes, crypto);
-const bcryptHash = util.promisify(bcrypt.hash, bcrypt);
-const compare = util.promisify(bcrypt.compare, bcrypt);
 
 /**
  * @desc Generates random string, useful for creating secure tokens
@@ -12,7 +7,7 @@ const compare = util.promisify(bcrypt.compare, bcrypt);
  * @return {string} - random string
  */
 exports.generateSecureToken = async () => {
-  const buf = await randomBytes(48);
+  const buf = crypto.randomBytes(48);
   return buf.toString('hex');
 };
 
@@ -24,7 +19,7 @@ exports.generateSecureToken = async () => {
  * @return {Promise} - a hash from input text
  */
 exports.getHash = (text, salt = '') => {
-  return bcryptHash(`${text[0]}${salt}${text.slice(1)}`, 10);
+  return bcrypt.hash(`${text[0]}${salt}${text.slice(1)}`, 10);
 };
 
 /**
@@ -32,8 +27,7 @@ exports.getHash = (text, salt = '') => {
  * @return {string}
  */
 exports.generateSalt = async () => {
-  const buf = await randomBytes(16);
-  return buf.toString('hex');
+  return bcrypt.genSalt(10);
 };
 
 /**
@@ -45,7 +39,7 @@ exports.generateSalt = async () => {
  * @return {Promise} - are hash and text equal
  */
 exports.compareTextWithHash = (text, hash, salt = '') => {
-  return compare(`${text[0]}${salt}${text.slice(1)}`, hash);
+  return bcrypt.compare(`${text[0]}${salt}${text.slice(1)}`, hash);
 };
 
 /**

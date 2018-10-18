@@ -19,7 +19,7 @@ const app = new Koa();
 require('./config/koa')(app);
 
 app.listen(config.port, () => {
-  logger.warn(`Api server listening on ${config.port}, in ${process.env.NODE_ENV} mode`);
+  logger.warning(`Api server listening on ${config.port}, in ${process.env.NODE_ENV} mode`);
 });
 
 module.exports = app;

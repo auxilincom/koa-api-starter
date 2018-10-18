@@ -18,7 +18,7 @@ exports.decodeToken = (token) => {
   try {
     res = jwt.verify(token, config.jwt.secret);
   } catch (err) {
-    logger.warn('Invalid json web token', err);
+    logger.warning('Invalid json web token', err);
   }
 
   return res;

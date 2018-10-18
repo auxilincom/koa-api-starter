@@ -45,7 +45,7 @@ const routeErrorHandler = async (ctx, next) => {
         }
       }
 
-      logger.error(ctx.body);
+      logger.error(JSON.stringify(ctx.body.errors || ctx.body));
     }
   }
 };
