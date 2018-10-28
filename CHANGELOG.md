@@ -1,3 +1,7 @@
+## v0.2.0 (2018-10-28)
+
+* Update npm dependencies.
+
 ## v0.1.2 (2018-10-18)
 
 * Update npm dependencies.
