@@ -4,7 +4,7 @@ services:
     command: mongod
     image: mongo:4.0.3
     networks:
-      - ship
+      - auxilin
     ports:
       - "27017:27017" # map port to none standard port, to avoid conflicts with locally installed mongodb. 
     volumes:
@@ -14,12 +14,12 @@ services:
       context: "./"
       dockerfile: Dockerfile.dev
     networks:
-      - ship
+      - auxilin
     volumes:
       - "./src:/app/src"
     ports:
       - "3001:3001"
 
 networks:
-  ship:
-    name: ship_network
+  auxilin:
+    name: auxilin_network

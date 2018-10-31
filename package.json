@@ -1,6 +1,6 @@
 {
   "name": "koa-api-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Koa api",
   "private": false,
   "main": "src/app.js",
@@ -30,7 +30,7 @@
     "@auxilin/node-mongo": "0.1.0",
     "app-module-path": "2.2.0",
     "bcrypt": "3.0.2",
-    "joi": "14.0.1",
+    "joi": "14.0.2",
     "jsonwebtoken": "8.3.0",
     "kcors": "2.2.2",
     "koa": "2.6.1",
