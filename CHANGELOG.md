@@ -1,3 +1,9 @@
+## v0.2.3 (2018-11-12)
+
+* Fix email image
+* Update node.js version
+* Update npm dependencies
+
 ## v0.2.2 (2018-11-03)
 
 * Fix start api
