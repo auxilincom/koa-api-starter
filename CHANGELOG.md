@@ -1,3 +1,7 @@
+## v0.3.0 (2018-11-27)
+
+* Update npm dependencies
+
 ## v0.2.3 (2018-11-12)
 
 * Fix email image
