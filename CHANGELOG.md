@@ -1,3 +1,7 @@
+## v0.4.0 (2019-04-06)
+
+* Update npm dependencies
+
 ## v0.3.0 (2018-11-27)
 
 * Update npm dependencies
