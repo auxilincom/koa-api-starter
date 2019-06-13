@@ -30,7 +30,7 @@ describe('/account', () => {
     newUserData = {
       firstName: 'Ivan',
       lastName: 'Balalaikin',
-      email: 'test@test.test',
+      email: 'test@test.com',
       password: 'qwerty',
     };
   });
@@ -49,7 +49,7 @@ describe('/account', () => {
       .send({
         firstName: 'Petr',
         lastName: 'Ivanov',
-        email: 'test@test.test',
+        email: 'test@test.com',
         password: 'qwerty',
       })
       .expect(400)
@@ -82,7 +82,7 @@ describe('/account', () => {
     request
       .post('/account/signin')
       .send({
-        email: 'test@test.com1',
+        email: 'test1@test.com',
         password: 'incorrect_password',
       })
       .expect(400)
@@ -178,7 +178,7 @@ describe('/account', () => {
   });
 
   it('should return an error forgot password email is not registered', (done) => {
-    const email = 'not@registered.user';
+    const email = 'test@notregistereduser.com';
     request
       .post('/account/forgotPassword')
       .send({
