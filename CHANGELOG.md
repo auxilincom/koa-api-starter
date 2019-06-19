@@ -1,3 +1,8 @@
+## v0.4.1 (2019-06-16)
+
+* Update npm dependencies
+* Update drone config
+
 ## v0.4.0 (2019-04-06)
 
 * Update npm dependencies
