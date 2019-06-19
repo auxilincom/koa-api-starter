@@ -2,19 +2,20 @@ kind: pipeline
 name: default
 
 steps:
-  - name: run-api-starter-tests
-    image: node:10.16.0
-    commands:
-      - chmod +x ./bin/run.sh
-      - ./bin/run.sh
-    when:
-      status: [ failure, success ]
-      event:
-        - pull_request
-        - push
+- name: run-api-starter-tests
+  image: node:10.16.0
+  commands:
+  - chmod +x ./bin/run.sh
+  - ./bin/run.sh
+  when:
+    event:
+    - pull_request
+    - push
 
 services:
-  - name: mongo
-    image: mongo:4.0.10
+- name: mongo
+  image: mongo:4.0.10
 
-branches: [ master, "*:master" ]
+trigger:
+  branch:
+  - master
