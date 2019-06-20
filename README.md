@@ -14,7 +14,7 @@
 [![Tweet](https://img.shields.io/twitter/url/https/github.com/auxilincom/koa-api-starter.svg?style=social)](https://twitter.com/intent/tweet?text=I%27m%20using%20Auxilin%20components%20to%20build%20my%20next%20product%20🚀.%20Check%20it%20out:%20https://github.com/auxilincom/koa-api-starter)
 [![@auxilin](https://img.shields.io/badge/%F0%9F%92%AC%20Telegram-t.me/auxilin-blue.svg)](https://t.me/auxilin)
 
-Fully featured [Koa.JS](http://koajs.com/) restful api starter application.
+Fully featured [Koa.JS](https://koajs.com/) restful api starter application.
 The goal of this project is to solve all routine tasks and keep your focus on the product and business logic of the application, not on the common things, such logging, configuration, dev/production environments
 
 Out of the box support following features:
@@ -60,7 +60,7 @@ There are two main directories within project:
 
 All other files, that does not fit that structure should be placed straight in the `src` folder. We can always introduce more folders as we need them. Currently root folder consist following:
 
-1. [src/app.constants.js](./src/app.constants.js) - constant variables that are used in the application
+1. [src/app.constants.js](./src/app.constants.js) - constant variables that are used in the application.
 2. [src/app.js](./src/app.js) - starting point of the node.js application. It combine application configuration and start Koa http listener.
 3. [src/auth.service.js](./src/auth.service.js) - JWT based authentication helper. Consist logic of JWT token encryption/decryption. Can consist other authentication related functions.
 4. [src/db.js](./src/db.js) - handles connection to the MongoDB.
