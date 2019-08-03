@@ -52,14 +52,10 @@ const validateFunc = async (data) => {
     };
   }
 
-
   return {
     value: data,
     errors,
   };
 };
 
-module.exports = [
-  Joi.validate(schema),
-  validateFunc,
-];
+module.exports = [Joi.validate(schema), validateFunc];
