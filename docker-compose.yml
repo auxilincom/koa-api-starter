@@ -9,6 +9,14 @@ services:
       - "27017:27017" # map port to none standard port, to avoid conflicts with locally installed mongodb. 
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
+  redis:
+    image: redis:5.0.0
+    networks:
+      - auxilin
+    command: ["redis-server", "--appendonly", "yes"]
+    hostname: redis
+    ports:
+      - "6379:6379" # map port to none standard port, to avoid conflicts with locally installed redis.
   api:
     build:
       context: "./"

@@ -1,3 +1,10 @@
+## v0.5.0 (2019-08-03)
+
+* Use cookies for storing tokens (security reason)
+* Use access and refresh tokens instead of one token
+* Update npm dependencies
+* Add cache service
+
 ## v0.4.1 (2019-06-16)
 
 * Update npm dependencies

@@ -47,7 +47,4 @@ const validateFunc = async (data, pesistentData) => {
   };
 };
 
-module.exports = [
-  Joi.validate(schema),
-  validateFunc,
-];
+module.exports = [Joi.validate(schema), validateFunc];
