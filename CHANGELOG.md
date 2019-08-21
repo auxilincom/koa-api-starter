@@ -1,3 +1,8 @@
+## v0.6.0 (2019-08-21)
+
+* Use `eslint` 6
+* Update npm dependencies
+
 ## v0.5.0 (2019-08-03)
 
 * Use cookies for storing tokens (security reason)
