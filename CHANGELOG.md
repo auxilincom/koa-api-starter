@@ -1,3 +1,7 @@
+## v0.6.1 (2019-09-02)
+
+* Fix cookies domain
+
 ## v0.6.0 (2019-08-21)
 
 * Use `eslint` 6
