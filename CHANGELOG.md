@@ -1,3 +1,7 @@
+## v0.6.2 (2019-09-03)
+
+* Fix logout
+
 ## v0.6.1 (2019-09-02)
 
 * Fix cookies domain

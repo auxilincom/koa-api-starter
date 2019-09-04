@@ -1,5 +1,5 @@
 const url = require('url');
-const psl = require('psl')
+const psl = require('psl');
 
 const constants = require('app.constants');
 
