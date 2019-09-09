@@ -1,3 +1,7 @@
+## v0.6.3 (2019-09-09)
+
+* Update npm dependencies
+
 ## v0.6.2 (2019-09-03)
 
 * Fix logout
